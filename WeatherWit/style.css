@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+*{
+    margin:0;
+}
+
+body{
+    background-image: url(https://resi.ze-robot.com/dl/ga/gazing-the-clouds-3840%C3%972160.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+#webtitle{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+#websub{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+
+#placeSearch{
+    width: 40vh;
+    height: 3vh;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding-left: 8px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#searchbtn{
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 15%;
+    left: 59%;
+    padding-left: 100px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.InfoContainer{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/*todaydata */
+
+#todaydata{
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 40vh;
+    width: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    display: none;
+}
+
+#todayTitle{
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+#todayPlace{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#todayImg{
+    padding-top: 5px;
+    width: 15vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#todayFeels{
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+}
+
+#todayTemp{
+    position: absolute;
+    left: 10%;
+    margin-left: 19px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 80%;
+}
+
+#todayHumidity{
+    position: absolute;
+    left: 84%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 80%;
+}
+
+#todayWind{
+    position: absolute;
+    left: 19%;
+    margin-left: 10px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 90%;
+}
+
+#todayPrecip{
+    position: absolute;
+    left: 73%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 90%;
+}
+
+/*tmrwdata*/
+#tmrwdata{
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 40vh;
+    width: 50vh;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    display: none;
+    
+}
+
+#tmrwTitle{
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+#tmrwPlace{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#tmrwImg{
+    padding-top: 5px;
+    width: 15vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#tmrwFeels{
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+}
+
+#tmrwTemp{
+    position: absolute;
+    left: 10%;
+    margin-left: 19px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 80%;
+}
+
+#tmrwHumidity{
+    position: absolute;
+    left: 84%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 80%;
+}
+
+#tmrwWind{
+    position: absolute;
+    left: 19%;
+    margin-left: 10px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 90%;
+}
+
+#tmrwPrecip{
+    position: absolute;
+    left: 73%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 90%;
+}
+
+/*scroll wheel */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(86, 154, 187);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(44, 144, 194);
+  }
+
+  #github{
+    cursor: pointer;
+    font-size: 4vh;
+    text-decoration:none;
+    color: inherit;
+    position: fixed;
+    top: 0%;
+    left: 5vh;
+    margin-top: 30px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
